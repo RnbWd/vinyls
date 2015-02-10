@@ -16,8 +16,6 @@
     "git-update": "git add .; git commit -m 'update'; git push"
   },
   "dependencies": {
-    "gulp-autoprefixer": "*",
-    "gulp-clean": "*",
     "gulp-changed": "*",
     "gulp-concat": "*",
     "gulp-conflict": "*",
@@ -35,10 +33,10 @@
     "gulp-livereload": "*",
     "gulp-load-plugins": "*",
     "gulp-minify-html": "*",
+    "gulp-postcss": "*",
     "gulp-plumber": "*",
     "gulp-rename": "*",
     "gulp-rev": "*",
-    "gulp-sass": "*",
     "gulp-tap": "*",
     "gulp-template": "*",
     "gulp-uglify": "*",
