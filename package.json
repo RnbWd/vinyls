@@ -13,16 +13,14 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "git-update": "git add .; git commit -m 'update'; git push"
+    "test": "mocha"
   },
   "dependencies": {
     "gulp-changed": "*",
     "gulp-concat": "*",
     "gulp-conflict": "*",
-    "gulp-csso": "*",
     "gulp-debug": "*",
     "gulp-derequire": "*",
-    "gulp-embedlr": "~0.5.2",
     "gulp-ext": "*",
     "gulp-filter": "*",
     "gulp-footer": "*",
