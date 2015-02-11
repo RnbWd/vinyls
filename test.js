@@ -11,8 +11,8 @@ describe('Assets', function(){
       assert.ok(libs.filter);
       assert.ok(libs.htmlTagInclude);
   })
-  it('inject tap rev should exist', function(){
-      assert.ok(libs.inject);
+  it('html2jsx tap rev should exist', function(){
+      assert.ok(libs.html2jsx);
       assert.ok(libs.tap);
       assert.ok(libs.rev);
   })
@@ -20,5 +20,10 @@ describe('Assets', function(){
       assert.ok(libs.postcss);
       assert.ok(libs.rename);
       assert.ok(libs.uglify);
+  })
+   it('sourcemaps rename render rev-hash exist', function(){
+      assert.ok(libs.sourcemaps);
+      assert.ok(libs.render);
+      assert.ok(libs.revHash);
   })
 });

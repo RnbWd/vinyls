@@ -16,7 +16,6 @@
     "test": "mocha"
   },
   "dependencies": {
-  	"gulp-asset": "*",
     "gulp-changed": "*",
     "gulp-concat": "*",
     "gulp-conflict": "*",
@@ -37,6 +36,8 @@
     "gulp-rename": "*",
     "gulp-render": "*",
     "gulp-rev": "*",
+    "gulp-rev-collector": "*",
+    "gulp-rev-hash": "*",
     "gulp-sourcemaps": "*",
     "gulp-tap": "*",
     "gulp-template": "*",
