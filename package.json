@@ -38,6 +38,7 @@
     "gulp-rev": "*",
     "gulp-rev-collector": "*",
     "gulp-rev-hash": "*",
+    "gulp-sass": "*",
     "gulp-sourcemaps": "*",
     "gulp-tap": "*",
     "gulp-template": "*",
